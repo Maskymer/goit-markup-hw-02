@@ -63,10 +63,14 @@ p {
   color: #404bbf;
 }
 
-.nav-studio {
+.nav-studio .nav-portfolio .nav-contacts {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.nav-studio:hover .nav-portfolio:hover .nav-contacts:hover {
+  color: #404bbf;
 }
 
 .nav-studio:focus {
@@ -106,7 +110,6 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
- 
 }
 
 .hero-button {
@@ -126,12 +129,16 @@ p {
   background-color: #404bbf;
 }
 
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 /* section 2 */
 
 .section-items {
 }
 
-.Advantages {
+.header-section-items {
   color: #2e2f42;
 }
 
@@ -139,6 +146,8 @@ p {
 }
 
 .header-items {
+    color: #2e2f42;
+   
 }
 
 .items-text {
@@ -162,11 +171,11 @@ p {
 }
 
 .card-team {
-    background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 .card-team-header {
-    color:#2e2f42;
+  color: #2e2f42;
 }
 
 .card-team-text {
@@ -178,21 +187,19 @@ p {
 }
 
 .header-portfolio {
-    line-height: 1.11;
-    text-transform: capitalize;
-    color: #2e2f42;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .card-portfolio {
-    
 }
 
-.portfolio-image{
-    
+.portfolio-image {
 }
 
 .header-portfolio-card {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .portfolio-card-text {
