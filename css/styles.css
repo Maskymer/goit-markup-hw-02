@@ -11,42 +11,48 @@ a {
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 p {
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
-.header {
-}
+/* header */
 
 .logo {
-  color: #2e2f42;
-font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .accent-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
+}
+
+.nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav:hover {
@@ -57,11 +63,26 @@ font-family: Raleway;
   color: #404bbf;
 }
 
+.nav-studio {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-studio:focus {
+  color: #404bbf;
+}
+
 .address {
   color: #434455;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-style: normal;
+}
+
+.address-link {
+  color: #434455;
 }
 
 .address-link:hover {
@@ -72,8 +93,7 @@ font-family: Raleway;
   color: #404bbf;
 }
 
-.main {
-}
+/* section 1 */
 
 .section-hero {
   background-color: #2e2f42;
@@ -83,15 +103,10 @@ font-family: Raleway;
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
-  height: 120px;
-  top: 260px;
-  left: 472px;
-  gap: 0px;
-  opacity: 0px;
+ 
 }
 
 .hero-button {
@@ -99,38 +114,29 @@ font-family: Raleway;
   background-color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: left;
-  width: Hug (169px) px;
-  height: Hug (56px) px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 .hero-button:hover {
   background-color: #404bbf;
 }
 
-.accent-logo {
-  background: #f4f4fd;
-}
+/* section 2 */
 
 .section-items {
 }
 
 .Advantages {
+  color: #2e2f42;
 }
 
 .items {
 }
-
-
 
 .header-items {
 }
@@ -138,57 +144,82 @@ font-family: Raleway;
 .items-text {
 }
 
+/* section 3 */
+
 .section-team {
   background: #f4f4fd;
 }
 
 .header-team {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .card-team {
+    background-color: #FFFFFF
 }
 
 .card-team-header {
+    color:#2e2f42;
 }
 
 .card-team-text {
 }
 
+/* section 4 */
+
 .portfolio {
 }
 
 .header-portfolio {
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .card-portfolio {
+    
+}
+
+.portfolio-image{
+    
 }
 
 .header-portfolio-card {
+    color: #2e2f42;
 }
 
 .portfolio-card-text {
 }
 
+/* footer */
+
 .footer {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
-.footer-logo{
-color: #f4f4fd;
-font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
+.footer-logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-.footer-text{
-    color: #f4f4fd;
+.footer-text {
+  color: #f4f4fd;
 }
-
 
 .footer-accent-logo {
-    color: #4d5ae5;
-    background-color: #2e2f42;
+  color: #f4f4fd;
+  background-color: #2e2f42;
 }
