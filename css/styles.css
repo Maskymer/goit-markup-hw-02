@@ -55,10 +55,22 @@ p {
   letter-spacing: 0.02em;
 }
 
-.nav-studio .nav-portfolio .nav-contacts {
+.nav-studio   {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.nav-portfolio{
+font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-contacts{
+font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-studio:hover   {
