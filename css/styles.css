@@ -55,22 +55,22 @@ p {
   letter-spacing: 0.02em;
 }
 
-.nav:hover {
-  color: #404bbf;
-}
-
-.nav:active {
-  color: #404bbf;
-}
-
 .nav-studio .nav-portfolio .nav-contacts {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.nav-studio:hover .nav-portfolio:hover .nav-contacts:hover {
+.nav-studio:hover   {
   color: #404bbf;
+}
+
+.nav-portfolio:hover{
+    color: #404bbf;
+}
+
+.nav-contacts:hover{
+    color: #404bbf;
 }
 
 .nav-studio:focus {
